@@ -14,7 +14,7 @@ const App = () => {
 };
 
 const Heading = () => {
-  return <h1 className="heading"> Welcome to Pokemon Store !!!</h1>;
+  return <h1 className="heading"> Welcome to Pokemon Store !!</h1>;
 };
 
 const Pokemon = (props) => {
