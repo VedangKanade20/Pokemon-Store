@@ -7,7 +7,18 @@ const App = () => {
     <>
       <Heading />
       <div className="Data">
-        <Pokemon />
+        <Pokemon
+          img="https://www.pngwing.com/en/free-png-cnrgo"
+          name="Pikachu"
+          price={5000}
+          pet="Yes"
+        />
+        <Pokemon
+          img="https://www.pngwing.com/en/free-png-bxzuo"
+          name="Pikachu"
+          price={5000}
+          pet="Yes"
+        />
       </div>
     </>
   );
@@ -20,8 +31,8 @@ const Heading = () => {
 const Pokemon = (props) => {
   return (
     <section className="descr">
-      <image src={props.image} />
-      <h1>{props.image}</h1>
+      <img src={props.img} />
+      <h1>{props.name}</h1>
       <h1>{props.price}</h1>
       <h1>{props.pet}</h1>
     </section>
